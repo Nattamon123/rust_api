@@ -15,12 +15,12 @@ pub struct Database{
     pub url : String
 }
 #[derive(Debug,Clone)]
-pub struct AvengerSecret{
+pub struct AdventurersSecret{
     pub secret : String,
     pub refresh_secret : String
 }
 #[derive(Debug,Clone)]
-pub struct GuildCommandSecret{
+pub struct  GuildCommandersSecret{
     pub secret : String,
     pub refresh_secret : String
 }
