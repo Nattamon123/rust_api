@@ -1,2 +1,2 @@
 pub mod axum_http;
-pub mod postgress;
+pub mod postgres;
