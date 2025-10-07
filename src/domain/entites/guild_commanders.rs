@@ -14,7 +14,6 @@ pub struct GuildCommanderEntity {
 #[derive(Debug, Clone,Insertable,Queryable)]
 #[diesel(table_name = guild_commanders)]
 pub struct RegisterGuildCommanderEntity {
-    pub id : i32,
     pub username : String,
     pub password : String,
     pub created_at : NaiveDateTime,
